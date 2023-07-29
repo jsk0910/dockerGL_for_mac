@@ -14,4 +14,10 @@ dockerGL
 
 ### How To Use?  
 1. brew 설치  
-   [https://whalec.io/mac/mac-homebrew-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/](https://whalec.io/mac/mac-homebrew-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/)
+   [https://whalec.io/mac/mac-homebrew-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/](https://whalec.io/mac/mac-homebrew-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95/)  
+2. XQuartz 설치
+   ``` bash
+   brew install --cask xquartz
+   ```
+   
+   
