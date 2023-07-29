@@ -8,7 +8,7 @@ dockerGL
   - install.sh
   - src
       - config.sh
-      - main.cpp
+      - main.cpp  --> 소스 코드 파일
       - makefile
 
 
@@ -26,7 +26,7 @@ dockerGL
    ```
 4. 상단 바에서 Xquartz > 설정 클릭하고 다음과 같이 설정 후 재부팅합니다.
    ![스크린샷 2023-07-30 오전 2 36 36](https://github.com/jsk0910/dockerGL_for_mac/assets/23286838/aa494dd5-018e-42a1-9798-ee969878cfb9)
-
+  
 5. Xquartz 종료
 6. Terminal에서 ifconfig 명령어 입력 후 가장 아래쪽에 있는 inet부분을 install.sh의 X.X.X.X 부분에 입력
    ![스크린샷 2023-07-30 오전 2 40 40](https://github.com/jsk0910/dockerGL_for_mac/assets/23286838/a89f635e-cd6a-4c5c-ae82-1638a7943d75)
@@ -36,7 +36,7 @@ dockerGL
    sh install.sh
    ```  
    Password가 나오면 사용자 비밀번호(macos의) 입력
-8. 다음 명령어 실행
+8. 다음 명령어 실행 (하나씩 실행)
    ``` bash
    cd src
    sh config.sh
