@@ -19,5 +19,9 @@ dockerGL
    ``` bash
    brew install --cask xquartz
    ```
-   
+     
+3. 재부팅 후 다음 명령어 실행
+   ``` bash
+   open -a XQuartz
+   ```
    
